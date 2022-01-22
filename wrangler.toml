@@ -1,0 +1,11 @@
+name = "updown-be"
+type = "webpack"
+
+account_id = "ede353278ef1a15d6d22ea9223ac8d95"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-01-21"
+kv_namespaces = [
+  { binding = "STORE", id = "e26af060572844fa91ac4592631ff28a", preview_id = "e26af060572844fa91ac4592631ff28a" }
+]
