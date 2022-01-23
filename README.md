@@ -1,15 +1,5 @@
-# 👷 `worker-template` Hello World
+# Updown Backend
 
-A template for kick starting a Cloudflare worker project.
+This is the API backend for the Updown site, written as a Cloudflare Worker.
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
-
-#### Wrangler
-
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+This project is set up to use Wrangler.
