@@ -1,0 +1,25 @@
+# create survey
+POST http://localhost:8787/survey/create
+Content-Type: application/json
+{
+"user": "aaron@aaronbieber.com",
+"prompt": "Did you enjoy my essence?"
+}
+
+# get survey
+GET http://localhost:8787/survey/78y6fatwis
+
+# get missing survey
+GET http://localhost:8787/survey/deadbeef
+
+# get surveys for user
+GET http://localhost:8787/user/aaron@aaronbieber.com/surveys
+
+# get surveys for wrong user
+GET http://localhost:8787/user/phil@aaronbieber.com/surveys
+
+# updoot
+POST http://localhost:8787/survey/m82la63l9l/upvote
+
+# down... doot?
+POST http://localhost:8787/survey/m82la63l9l/downvote
